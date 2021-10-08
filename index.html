@@ -15,7 +15,7 @@
 </head>
 
   <!--Header-->
-  <header class="navbar navbar-expand-md px-3 pt-3" style="background-color:rgb(34, 147, 185);">
+  <header class="navbar container-fluid navbar-expand-md px-3 pt-3" style="background-color:rgb(34, 147, 185);">
 
     <h3 class="logo">SDLC</h3>
     <ul class="nav collapse navbar-collapse justify-content-end">
@@ -26,11 +26,11 @@
         <a class="nav-link fw-bold text-black" href="./resources/html/About_us.html">About Us</a>
       </li>
     </ul>
-    <div class=" container-fluid fixed-top  bg-white d-md-none "></div>
+    <!-- <div class=" container-fluid fixed-top  bg-white d-md-none "></div> -->
     <!--top margin-->
     </div>
     <nav class=" container-fluid d-flex fixed-top justify-content-evenly d-md-none "style="background-color:rgb(34, 147, 185);">
-      <h3 class="logo">SDLC</h3>
+      <h3 class="logo me-auto m-1">SDLC</h3>
       <a class="nav-link active m-1 rounded text-white"  style="background-color: lightblue;" href="#"> Home </a>
       <a class="nav-link m-1 rounded text-white"  style="background-color: lightblue;" href="./resources/html/About_us.html"> About Us</a>
     </nav>
@@ -39,49 +39,51 @@
 <body>
 
   <!--Banner-->
-  <div class="row border text-center " style="padding: 16px; background-color:lightblue;">
-    <div class="col-md-6 ">
-      <img src="./resources/images/logo.jpeg" width="80%" class="my-4 rounded ">
-    </div>
-    <div class="col-md-6 ">
 
-      <h2 class="card-title fw-bold" style="text-align: left;">Software development life cycle (SDLC)</h2>
-      <p  style="text-align: left;">SDLC models show the ways to navigate through the complex and demanding process of software building. A
-        project’s quality, timeframes, budget, and ability to meet the stakeholders’ expectations largely depend on the
-        chosen model.</p>
-      <a class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-        aria-expanded="false" aria-controls="collapseWidthExample" href="#">Click here to know more</a>
-
-      <div class="collapse collapse-horizontal" id="collapseWidthExample">
-        <div class="card card-body">
-          There are more than 50 recognized SDLC models in use. None of them is perfect, and each brings its favorable
-          aspects and disadvantages for a specific software development project or a team. According to our 32 years of
-          experience in software development, we’ve chosen 8 most popular models to look into their essence and compare
-          for core features.
-        </div>
+  <div class="container-fluid">
+    <div class="row border text-center " style="padding: 8px; background-color:lightblue;">
+      <div class="col-md-6 ">
+        <img src="./resources/images/logo.jpeg" width="80%" class="my-4 rounded ">
       </div>
-      <ul class="list-group mt-2 text-center border border-dark">
-        <li class="list-group-item l1"><a class="text-decoration-none text-dark  "
-            href="./resources/html/Waterfall.html" target="_blank">Waterfall</a></li>
-        <li class="list-group-item l2"><a class="text-decoration-none text-dark"
-            href="./resources/html/V-model.html" target="_blank">V-model</a></li>
-        <li class="list-group-item l1"><a class="text-decoration-none text-dark"
-            href="./resources/html/Incremental_model.html" target="_blank">Incremental model</a></li>
-        <li class="list-group-item l2"><a class="text-decoration-none text-dark"
-            href="./resources/html/Spiral_model.html" target="_blank">Spiral model</a></li>
-        <li class="list-group-item l1"><a class="text-decoration-none text-dark"
-            href="./resources/html/RUP.html" target="_blank">RUP</a></li>
-        <li class="list-group-item l2"><a class="text-decoration-none text-dark"
-            href="./resources/html/scrum.html" target="_blank">Scrum</a></li>
-        <li class="list-group-item l1"><a class="text-decoration-none text-dark" href="./resources/html/XP.html">XP</a>
-        </li>
-        <li class="list-group-item l2"><a class="text-decoration-none text-dark"
-            href="./resources/html/Kanban.html" target="_blank">Kanban</a></li>
-        <li class="list-group-item l1"><a class="text-decoration-none text-dark"
-            href="./resources/html/charts.html" target="_blank">Summing models in charts</a></li>
-      </ul>
+      <div class="col-md-6 ">
+  
+        <h2 class="card-title fw-bold" style="text-align: left;">Software development life cycle (SDLC)</h2>
+        <p  style="text-align: left;">SDLC models show the ways to navigate through the complex and demanding process of software building. A
+          project’s quality, timeframes, budget, and ability to meet the stakeholders’ expectations largely depend on the
+          chosen model.</p>
+        <a class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+          aria-expanded="false" aria-controls="collapseWidthExample" href="#">Click here to know more</a>
+  
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body">
+            There are more than 50 recognized SDLC models in use. None of them is perfect, and each brings its favorable
+            aspects and disadvantages for a specific software development project or a team. According to our 32 years of
+            experience in software development, we’ve chosen 8 most popular models to look into their essence and compare
+            for core features.
+          </div>
+        </div>
+        <ul class="list-group mt-2 text-center border border-dark">
+          <li class="list-group-item l1"><a class="text-decoration-none text-dark  "
+              href="./resources/html/Waterfall.html" target="_blank">Waterfall</a></li>
+          <li class="list-group-item l2"><a class="text-decoration-none text-dark"
+              href="./resources/html/V-model.html" target="_blank">V-model</a></li>
+          <li class="list-group-item l1"><a class="text-decoration-none text-dark"
+              href="./resources/html/Incremental_model.html" target="_blank">Incremental model</a></li>
+          <li class="list-group-item l2"><a class="text-decoration-none text-dark"
+              href="./resources/html/Spiral_model.html" target="_blank">Spiral model</a></li>
+          <li class="list-group-item l1"><a class="text-decoration-none text-dark"
+              href="./resources/html/RUP.html" target="_blank">RUP</a></li>
+          <li class="list-group-item l2"><a class="text-decoration-none text-dark"
+              href="./resources/html/scrum.html" target="_blank">Scrum</a></li>
+          <li class="list-group-item l1"><a class="text-decoration-none text-dark" href="./resources/html/XP.html">XP</a>
+          </li>
+          <li class="list-group-item l2"><a class="text-decoration-none text-dark"
+              href="./resources/html/Kanban.html" target="_blank">Kanban</a></li>
+          <li class="list-group-item l1"><a class="text-decoration-none text-dark"
+              href="./resources/html/charts.html" target="_blank">Summing models in charts</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
   </div>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
